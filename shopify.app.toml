@@ -3,7 +3,7 @@
 client_id = "0f5df8d18f9ec5acf3744628612318ea"
 name = "green-scanner"
 handle = "green-scanner-2"
-application_url = "https://stopped-gas-liberal-maybe.trycloudflare.com"
+application_url = "https://helped-photographs-cult-traveling.trycloudflare.com"
 embedded = true
 
 [build]
@@ -19,9 +19,9 @@ scopes = "read_products,write_products,read_orders,read_content,read_online_stor
 
 [auth]
 redirect_urls = [
-  "https://stopped-gas-liberal-maybe.trycloudflare.com/auth/callback",
-  "https://stopped-gas-liberal-maybe.trycloudflare.com/auth/shopify/callback",
-  "https://stopped-gas-liberal-maybe.trycloudflare.com/api/auth/callback"
+  "https://helped-photographs-cult-traveling.trycloudflare.com/auth/callback",
+  "https://helped-photographs-cult-traveling.trycloudflare.com/auth/shopify/callback",
+  "https://helped-photographs-cult-traveling.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
