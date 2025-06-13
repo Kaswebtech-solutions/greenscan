@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "0f5df8d18f9ec5acf3744628612318ea"
+name = "green-scanner"
+handle = "green-scanner-2"
+application_url = "https://stopped-gas-liberal-maybe.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products,read_orders,read_content,read_online_store_pages,write_content"
+
+[auth]
+redirect_urls = [
+  "https://stopped-gas-liberal-maybe.trycloudflare.com/auth/callback",
+  "https://stopped-gas-liberal-maybe.trycloudflare.com/auth/shopify/callback",
+  "https://stopped-gas-liberal-maybe.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
